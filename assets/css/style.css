@@ -193,11 +193,11 @@ hr {
 }
 /* gallery page */
 #photos img {
-    line-height: 0;
-}
-#photos {
     width: 100%;
     line-height: 1em;
+}
+#photos {
+    line-height: 0;
 }
 /* footer */
 #social-networks {
@@ -214,8 +214,8 @@ hr {
     color: #3a3a3a;
 }
 /* media query: tablets and larger (576px and up) */
-@media screen and (min-width: 768px) {
-    #photos {
+@media screen and (min-width: 576px) {
+     #photos {
         column-count: 2;
         column-gap: 0;
     }
